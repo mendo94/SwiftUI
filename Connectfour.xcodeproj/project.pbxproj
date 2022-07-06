@@ -16,6 +16,10 @@
 		9AEDA3212875BADF002ADFBB /* ConnectfourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA3202875BADF002ADFBB /* ConnectfourTests.swift */; };
 		9AEDA32B2875BADF002ADFBB /* ConnectfourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA32A2875BADF002ADFBB /* ConnectfourUITests.swift */; };
 		9AEDA32D2875BADF002ADFBB /* ConnectfourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA32C2875BADF002ADFBB /* ConnectfourUITestsLaunchTests.swift */; };
+		9AEDA33A2875BF64002ADFBB /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA3392875BF64002ADFBB /* BoardCell.swift */; };
+		9AEDA33C2875C5A0002ADFBB /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA33B2875C5A0002ADFBB /* BoardItem.swift */; };
+		9AEDA33E2875C5AF002ADFBB /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA33D2875C5AF002ADFBB /* Board.swift */; };
+		9AEDA3402875C5C0002ADFBB /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDA33F2875C5C0002ADFBB /* Turn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		9AEDA3262875BADF002ADFBB /* ConnectfourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectfourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEDA32A2875BADF002ADFBB /* ConnectfourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectfourUITests.swift; sourceTree = "<group>"; };
 		9AEDA32C2875BADF002ADFBB /* ConnectfourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectfourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AEDA3392875BF64002ADFBB /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		9AEDA33B2875C5A0002ADFBB /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		9AEDA33D2875C5AF002ADFBB /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		9AEDA33F2875C5C0002ADFBB /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +110,11 @@
 				9AEDA3092875BADD002ADFBB /* AppDelegate.swift */,
 				9AEDA30B2875BADD002ADFBB /* SceneDelegate.swift */,
 				9AEDA30D2875BADD002ADFBB /* ViewController.swift */,
+				9AEDA33B2875C5A0002ADFBB /* BoardItem.swift */,
+				9AEDA33D2875C5AF002ADFBB /* Board.swift */,
+				9AEDA33F2875C5C0002ADFBB /* Turn.swift */,
 				9AEDA30F2875BADD002ADFBB /* Main.storyboard */,
+				9AEDA3392875BF64002ADFBB /* BoardCell.swift */,
 				9AEDA3122875BADF002ADFBB /* Assets.xcassets */,
 				9AEDA3142875BADF002ADFBB /* LaunchScreen.storyboard */,
 				9AEDA3172875BADF002ADFBB /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEDA33C2875C5A0002ADFBB /* BoardItem.swift in Sources */,
 				9AEDA30E2875BADD002ADFBB /* ViewController.swift in Sources */,
+				9AEDA33E2875C5AF002ADFBB /* Board.swift in Sources */,
 				9AEDA30A2875BADD002ADFBB /* AppDelegate.swift in Sources */,
+				9AEDA33A2875BF64002ADFBB /* BoardCell.swift in Sources */,
 				9AEDA30C2875BADD002ADFBB /* SceneDelegate.swift in Sources */,
+				9AEDA3402875C5C0002ADFBB /* Turn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
